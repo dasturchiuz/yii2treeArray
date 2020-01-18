@@ -43,7 +43,7 @@ class NestedSetsTreeCategoriesBehavior extends Behavior
      */
     public $makeLinkCallable = null;
 
-    public function tree()
+    public function treeCategories()
     {
         $makeNode = function ($node) {
             $newData = [
