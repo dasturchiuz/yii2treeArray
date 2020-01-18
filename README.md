@@ -11,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require dasturchiuz/yii2-nested-sets-tree-behavior
+composer require dasturchiuz/treebehaviorcategories
 ```
 
 or add
 
 ```
-"dasturchiuz/yii2-nested-sets-tree-behavior": "*"
+"dasturchiuz/treebehaviorcategories": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -30,7 +30,7 @@ Once the extension is installed, simply use it in your model  :
 
 ```php
 'htmlTreeCategory'=>[
-    'class' => \dasturchiuz\treebehavior\NestedSetsTreeBehavior::className()
+    'class' => \dasturchiuz\treebehaviorcategories\NestedSetsTreeBehavior::className()
 ]
 ```
 use
