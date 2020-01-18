@@ -1,0 +1,29 @@
+{
+    "name": "dasturchiuz/treebehaviorcategories",
+    "description": "NestedSetsTreeBehavior for build array",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "creocoder",
+        "behavior",
+        "nested sets",
+        "array"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loock by Maksym Tymofeiev",
+            "email": "dasturchiuz@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "creocoder/yii2-nested-sets": "^0.9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "dasturchiuz\\treebehaviorcategories\\": ""
+        }
+    }
+}
